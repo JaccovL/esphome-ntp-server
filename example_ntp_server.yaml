@@ -1,0 +1,10 @@
+external_components:
+  - source:
+      type: git
+      url: https://github.com/developerinsider/esphome-ntp-server
+      ref: main
+    components: [ntp_server]
+
+ntp_server:
+  time_id: <time-source-id>
+  port: 123
