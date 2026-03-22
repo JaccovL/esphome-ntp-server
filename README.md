@@ -22,7 +22,7 @@ Add to your ESPHome YAML:
 external_components:
   - source:
       type: git
-      url: https://github.com/developerinsider/esphome-ntp-server
+      url: https://github.com/JaccovL/esphome-ntp-server
       ref: main
     components: [ntp_server]
 ```
